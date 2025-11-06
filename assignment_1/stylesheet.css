@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 430px) {
+    .form form input {
+        width:300px;
+        height: 30px;
+    }
+}
+@media (max-width: 430px) {
+    section {
+        font-size: 13px;
+    }
+}
+@media (max-width: 430px) {
+    main .welcome {
+        font-size: 40px;
+    }
+}
+/* This is the welcome text on the index page */
+.welcome {
+    text-decoration-line: overline underline ; 
+    text-align: center;
+    font-size: 70px;
+    padding: 5px;
+}
+/* These are the navigation bar changes */
+nav ul {
+    text-align: right;
+    list-style:none ;
+}
+nav ul li a {
+    font-size: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+nav ul li a:hover {
+    background-color: crimson;
+}
+nav ul li {
+    display: inline;
+}
+/* These are the elements that are not calsses or id's */
+section {
+    text-align: center;
+    border: 20%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    background-color:lightslategray;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+main {
+    background-color: lightgray;
+}
+header {
+    background-color: aqua;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+article ul {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+}
+article ul li {
+    list-style-type: none;
+}
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+/* Here are the div calsses that I used for the gallery */
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: white;
+    padding-bottom: 100px;
+
+}
+.pictures {
+    border-radius: 12px;
+    border-style: dashed;
+    border-color: gray;
+}
+.pictures img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+/* From here these are the contact page changes */
+form {
+    display: block;
+    text-align: center;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    border-radius: 2px ;
+    border-style: solid;
+    border-color: black;
+}
+form label {
+    text-align: center;
+    font-size: large;
+}
+form input {
+    width: 400px;
+    height: 50px;
+    
+}
+.submit {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.fa-facebook {
+    background-color: blue;
+}
+.fa-instagram {
+    background-color: orange;
+
+}
+.instandface {
+    display: inline-block;
+    padding: 12px;
+    margin: 0 10px; 
+    font-size: 24px; 
+    width: 50px;     
+    height: 50px;    
+    line-height: 50px; 
+    text-align: center; 
+    text-decoration: none; 
+    color: white;    
+    border-radius: 50%; 
+    border-color: black;
+    border-style: solid;
+}
+/* These are the elements for the navigation buttons at the bottom */
+.pagenavbuttons {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2rem; 
+    padding-top: 1.5rem;
+}
+.pagebutton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: green;
+    color: white;
+    text-decoration: none; 
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* Some changes on the about me page */
+.about {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+
+}
+#aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+section img {
+    float: none;
+    height: 300px;
+    width: auto;
+    padding: 5px;
+}
+
+
+
+
+
